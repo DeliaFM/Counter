@@ -4,15 +4,14 @@ var num = 0;
 $('.CountNum').text(num);
 
 $("#incrBtn").click(function () {
-    $(".countNum").val(++num);
-    $('.CountNum').text(num);
-    
+    $(".CountNum").text(++num);
+        
 });
 
 $("#decrBtn").click(function () {
     if (num !== 0) {
-        $(".countNum").val(--num);
-        $('.CountNum').text(num);
+        $(".CountNum").text(--num);
+    
     };
     
 });
